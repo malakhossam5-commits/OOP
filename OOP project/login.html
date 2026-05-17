@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Login
+    </title>
+
+    <link rel="stylesheet"
+          href="login.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="logo-box">
+
+            <div class="logo">
+                🌉
+            </div>
+
+        </div>
+
+        <h1>
+            Jasr El Kheir
+        </h1>
+
+        <section class="login-card">
+
+            <h2>
+                Login
+            </h2>
+
+            <p class="subtitle">
+                Enter your credentials to access your account
+            </p>
+
+            <form id="loginForm"
+                  autocomplete="on">
+
+                <label for="emailInput">
+                    Email
+                </label>
+
+                <input type="email"
+                       id="emailInput"
+                       placeholder="your@email.com"
+                       autocomplete="email">
+
+                <label for="passwordInput">
+                    Password
+                </label>
+
+                <input type="password"
+                       id="passwordInput"
+                       placeholder="••••••••"
+                       autocomplete="current-password">
+
+                <div class="remember-box">
+
+                    <div class="remember-me">
+
+                        <input type="checkbox"
+                               id="remember">
+
+                        <label for="remember">
+                            Remember Me
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <button type="submit"
+                        id="loginBtn">
+
+                    <i class="fa-solid fa-shield"></i>
+
+                    Login
+
+                </button>
+
+            </form>
+
+            <p class="signup">
+
+                Don't have an account?
+
+                <a href="signup.html">
+                    Sign Up
+                </a>
+
+            </p>
+
+        </section>
+
+    </main>
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>

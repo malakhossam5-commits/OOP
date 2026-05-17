@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasr Al-Khayr — Admin Login</title>
+    <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-box">🌉</div>
+        
+        <h1> Jasr El Kheir</h1>
+
+        <div class="login-card">
+            <h2>Admin Portal</h2>
+            <p class="subtitle">Secure access to control panel</p>
+
+            <div id="errorMessage" class="error-msg"></div>
+
+            <form id="adminLoginForm">
+                <label for="adminEmail">Admin Email</label>
+                <input type="email" id="adminEmail" placeholder="Enter admin email" required>
+
+                <label for="adminPassword">Password</label>
+                <input type="password" id="adminPassword" placeholder="Enter secure password" required>
+
+                <div class="remember-box">
+                    <div class="remember-me">
+                        <input type="checkbox" id="rememberMe">
+                        <label for="rememberMe">Remember this device</label>
+                    </div>
+                </div>
+
+                <button type="submit" id="submitBtn">🔓 Authenticate & Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="adminlogin.js"></script>
+</body>
+</html>
